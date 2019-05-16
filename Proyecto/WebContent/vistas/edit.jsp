@@ -14,9 +14,8 @@
 			PersonaDAO dao=new PersonaDAO(); 
 			int id=Integer.parseInt((String)request.getAttribute("idper"));
 			Persona p = (Persona)dao.list(id);
-			
-			
 		%>
+
 		<h1>Modificar persona</h1>
 		<form action="Controlador">
 			ID:<br>

@@ -54,7 +54,7 @@ public class Controlador extends HttpServlet {
 			dao.add(p);
 			acceso=listar;
 			
-		}else if(action.equalsIgnoreCase("editar")){
+		}else if(action.equalsIgnoreCase("edit")){
 			request.setAttribute("idper", request.getParameter("id"));
 			acceso=edit; 
 			
